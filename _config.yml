@@ -59,3 +59,10 @@ email: zigak77@protonmail.com
 twitter_username: zigakokelj
 github_username:  zkokelj
 
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+

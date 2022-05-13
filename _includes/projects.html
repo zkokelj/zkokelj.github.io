@@ -1,4 +1,41 @@
 <div class="user-details">
+  <h1> Experience </h1>
+</div>
+<div class="user-projects">
+  <div class="images-right">
+    <img alt="mountains" src="https://logowik.com/content/uploads/images/bitpanda7084.jpg" />
+  </div>
+  <div class="contents">
+    <h3> Bitpanda </h3>
+    <p>Blockchain Engineer</p>
+    <p><strong>From:</strong> June 2022</p>
+  </div>
+</div>
+<div class="user-projects">
+  <div class="images-left">
+    <img alt="mountains" src="{{ "/assets/img/nchain.png" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents-right">
+    <h3> Crea (NChain) </h3>
+    <p>Backend Developer</p>
+    <p><strong>From:</strong> August 2019</p>
+    <p><strong>To:</strong> May 2022</p>
+  </div>
+</div>
+<div class="user-projects">
+  <div class="images-right">
+    <img alt="mountains" src="{{ "/assets/img/geotocka.png" | prepend: site.baseurl }}" />
+  </div>
+  <div class="contents">
+    <h3> Geotočka </h3>
+    <p> Backend Developer</p>
+    <p><strong>From:</strong> June 2022</p>
+  </div>
+</div>
+
+<hr>
+
+<div class="user-details">
   <h1> Some of my projects </h1>
 </div>
 <div class="user-projects">
@@ -8,7 +45,7 @@
   <div class="contents">
     <h3> Implementation of virtual reality into the Med3D web visualisation framework </h3>
     <p> My Batchelor thesis (Faculty of Computer and Information Science - University of Ljubljana) + MIPRO conference paper <a href="https://ieeexplore.ieee.org/abstract/document/8400057" target="_blank">(link)</a></p>
-    <a class="project-link" href="https://repozitorij.uni-lj.si/IzpisGradiva.php?id=103092&lang=eng" target="_blank">Check it out</a>
+    <a class="project-link" href="https://repozitorij.uni-lj.si/IzpisGradiva.php?id=103092&lang=eng" target="_blank">Batchelor thesis PDF</a>
   </div>
 </div>
 <div class="user-projects">
@@ -20,31 +57,47 @@
     <p> Implementation and design of Wordpress based website for local Skydiving club.</p>
     <p> It it includes: responsive design, multi-language support, checkout with an option to pay with credit card, ...
     </p>
-    <a class="project-link" href="https://skydiveljubljana.com/" target="_blank">Check it out</a>
+    <a class="project-link" href="https://skydiveljubljana.com/" target="_blank">View website</a>
   </div>
 </div>
 <div class="user-projects">
   <div class="images-right">
-    <img alt="mountains" src="https://media.istockphoto.com/photos/work-in-progress-road-sign-picture-id155388466?k=6&m=155388466&s=612x612&w=0&h=o1FECebGkqlmlI3hwpFJ8vnj6oYrQGWOFDxAO4upuW8=" />
+    <img alt="mountains" src="{{ "/assets/img/MT1.png" | prepend: site.baseurl }}" />
+    <img alt="mountains" src="{{ "/assets/img/MT2.png" | prepend: site.baseurl }}" />
+    <img alt="mountains" src="{{ "/assets/img/MT3.png" | prepend: site.baseurl }}" />
   </div>
   <div class="contents">
     <h3> Comparison of tainting analysis methods in Bitcoin network (Master's Thesis) </h3>
-    <p> In pogress... </p>
+    <p> Bitcoin offers many new opportunities and challenges with its pseudonymity
+      and open source nature. One of the challenges is performing taint analysis
+      in order to follow coins that originated from criminal activities. Due to a
+      large number of nodes and the complexity of the Bitcoin transaction graph,
+      methods for the performance of taint analysis have been developed. In this
+      master’s thesis, existing methods were implemented and furthermore a new
+      method called COMB was proposed. A database that supports running these
+      methods was put together. For the testing purpose, two data sets of starting
+      transaction outputs were prepared. After executing all methods on the data
+      sets and analysis of the results, it was concluded that all methods have pros
+      and cons. The intersections of graphs produced by different algorithms from
+      the same starting inputs were analyzed, because they contain transactions
+      with a higher probability of being connected to the starting transaction output. Another database with off-chain data that can be used in implemented
+      methods was developed. Even with a relatively small database, we were able
+      to reach some known transactions with implemented methods, showing the
+      big potential of this technique </p>
+      <a class="project-link" href="https://repozitorij.uni-lj.si/Dokument.php?id=151985&lang=slv" target="_blank">Master's thesis PDF</a>
+      <p>*If you are interested in code for indexing Bitcoin blockchain and/or Python scripts for analysing the code or any part o the text (only abstract is in English), feel free to contact me via email / Linkedin.
+      </p>
   </div>
 </div>
-<!---
 <div class="user-projects">
   <div class="images-left">
-    <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />
+    <img alt="mountains" src="{{ "/assets/img/shoes1.png" | prepend: site.baseurl }}" />
   </div>
   <div class="contents-right">
-    <h3> Project Title </h3>
-    <ul>
-      <li> Featured Skills</li>
-    </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
+    <h3> Multiple Web Scrapers  </h3>
+    <p> Implementation and deployment of multiple web scrapers</p>
+    <p> - Implementation of webscrapers that "look" for certaing products on perticular websites <br>
+      - Notifications to Discord/Slack when desired products were found.
+    </p>
   </div>
 </div>
-
--->
